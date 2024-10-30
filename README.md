@@ -9,9 +9,13 @@ process_urls_tools 简易批量化URL格式处理工具
 使用此脚本可以快速整理大量URL格式
 
 用法：
+
 1.批量将FOFA中原格式的URL导出为txt，每行一个，保存文件名为urls.txt
+
 2.将项目中的process_urls.py与urls.txt放置在同目录下，运行命令python process_urls.py
+
 3.在菜单处选择模式1或者模式2，模式1只保留主机名，不带端口号，如https://192.168.1:80 变为192.168.1。模式2保留主机名和端口号，如https://192.168.1:80 变为192.168.1:80
+
 4.键盘输入1或2后按照对应模式，处理后的url将保存在新生成的processed_urls.txt，每行一个
 
 
